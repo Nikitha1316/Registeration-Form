@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Registeration Form</h3>
+    <form action="">
+        <table>
+            <tr>
+                <th>
+                Firstname:
+                </th>
+                <td>
+                    <input type="text" id="Fname" placeholder="eg: Jithin" minlength="3" required>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                Lastname:
+                </th>
+                <td>
+                    <input type="text" id="Lname" placeholder="eg: Dev" minlength="1" >
+                </td>
+            </tr>            
+            <tr>
+                <th>
+                DOB:
+                </th>
+                <td>
+                    <input type="date" id="dob" required>
+                </td>
+            </tr> 
+            <tr>
+                <th>
+                Gender:
+                </th>
+                <td>
+                    <input type="radio" name="gender" required> Male
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr> 
+            <tr>
+                <th >
+                Qualification:
+                </th>
+                <td rowspan="" >
+                    <input type="checkbox">SSLC <br>
+                    <input type="checkbox">Plus Two <br>
+                    <input type="checkbox">UG <br>
+                    <input type="checkbox">PG <br>
+                    <input type="checkbox">Phd
+                </td>
+            </tr>
+            <tr>
+                <th>
+                Address:
+                </th>
+                <td>
+                    <textarea name="" id="textarea" cols="40" rows="10" required></textarea>>
+                </td>
+            </tr>
+            <tr>
+                <th>State:</th>
+                <td>
+                    <select name="State" id="state" required>
+                        <option value="Ke">Kerala</option>
+                        <option value="TN">Tamil Nadu</option>
+                        <option value="Ka">Karnataka</option>
+                        <option value="AP">Andhra Pradesh</option>
+                        <option value="AR">Arunachal Pradesh</option>
+                        <option value="AS">Assam</option>
+                        <option value="BR">Bihar</option>
+                        <option value="CT">Chhattisgarh</option>
+                        <option value="GA">Goa</option>
+                        <option value="GJ">Gujarat</option>
+                        <option value="HR">Haryana</option>
+                        <option value="HP">Himachal Pradesh</option>
+                        <option value="JH">Jharkhand</option>
+                        <option value="MP">Madhya Pradesh</option>
+                        <option value="MH">Maharashtra</option>
+                        <option value="MN">Manipur</option>
+                        <option value="ML">Meghalaya</option>
+                        <option value="MZ">Mizoram</option>
+                        <option value="NL">Nagaland</option>
+                        <option value="OD">Odisha</option>
+                        <option value="PB">Punjab</option>
+                        <option value="RJ">Rajasthan</option>
+                        <option value="SK">Sikkim</option>
+                        <option value="TG">Telangana</option>
+                        <option value="TR">Tripura</option>
+                        <option value="UP">Uttar Pradesh</option>
+                        <option value="UK">Uttarakhand</option>
+                        <option value="WB">West Bengal</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Pincode:</th>
+                <td>
+                    <input type="number" min="6" max="6" pattern="[0-9]{6}" placeholder="eg: 673006"required>
+                </td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td>
+                    <input type="email" placeholder="eg: jithin@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <th>Phone:</th>
+                <td>
+                    <input type="number" min="10" max="10" pattern="[6-9][0-9]{9}" placeholder=""required>
+                </td>
+            </tr>
+            <tr>
+                <th>Username:</th>
+                <td>
+                    <input type="text" placeholder="eg: jithin" required>
+                </td>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <td>
+                    <input type="password" required placeholder="Strong Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <button>Submit</button>
+                </td>
+                <td>
+                <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
